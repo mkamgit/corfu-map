@@ -24,7 +24,7 @@ function init() {
 
   bindDataLayerListeners(map.data);
 
-  map.data.loadGeoJson('data/2013080.geojson');	
+  map.data.loadGeoJson("data/2013080.geojson");	
 	
   // Retrieve HTML elements.
   var mapContainer = document.getElementById('map-holder');
