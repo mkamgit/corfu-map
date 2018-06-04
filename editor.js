@@ -29,7 +29,7 @@ function init() {
   geoJsonOutput = document.getElementById('geojson-output');
   downloadLink = document.getElementById('download-link');
 	
-  map.data.loadGeoJson('2013080.geojson');
+  map.data.loadGeoJson('data/2013080.geojson');
 }
 
 google.maps.event.addDomListener(window, 'load', init);
