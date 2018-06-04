@@ -24,7 +24,21 @@ function init() {
 
   bindDataLayerListeners(map.data);
 
-  map.data.loadGeoJson('data/2013080.geojson', 'data/2013108.geojson');	
+  map.data.loadGeoJson('data/2013080.geojson');
+  map.data.loadGeoJson('data/2013108.geojson');	
+  map.data.loadGeoJson('data/2013109.geojson');	
+  map.data.loadGeoJson('data/2013139.geojson');	
+  map.data.loadGeoJson('data/2016004.geojson');	
+  map.data.loadGeoJson('data/2016016.geojson');
+  map.data.loadGeoJson('data/2016030.geojson');	
+  map.data.loadGeoJson('data/2016035.geojson');	
+  map.data.loadGeoJson('data/2016057.geojson');	
+  map.data.loadGeoJson('data/2016141.geojson');
+  map.data.loadGeoJson('data/2016148.geojson');
+  map.data.loadGeoJson('data/2016149.geojson');
+  map.data.loadGeoJson('data/2016187.geojson');	
+  map.data.loadGeoJson('data/2016201.geojson');	
+  
 	
   // Retrieve HTML elements.
   var mapContainer = document.getElementById('map-holder');
