@@ -24,12 +24,12 @@ function init() {
 
   bindDataLayerListeners(map.data);
 
+  map.data.loadGeoJson('data/2013080.geojson');	
+	
   // Retrieve HTML elements.
   var mapContainer = document.getElementById('map-holder');
   geoJsonOutput = document.getElementById('geojson-output');
   downloadLink = document.getElementById('download-link');
-	
-  map.data.loadGeoJson('data/2013080.geojson');
 }
 
 google.maps.event.addDomListener(window, 'load', init);
